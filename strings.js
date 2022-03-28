@@ -14,7 +14,7 @@ var str='It\'s be a';
 console.log(str);
 
 //Printing the length of the string
-let text="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var text="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 console.log(text.length);
 
 let t="We are so called \"Heroes\"";
@@ -49,3 +49,18 @@ console.log(newText);
 var str = "Please locate where 'locate' occurs!";
 console.log(str.indexOf("locate"));
 
+//String templates
+let firstName="Falsa";
+let secondName="Trulsa";
+var text=`First name ${firstName} Last name ${secondName}`;
+console.log(text);
+
+//HTML templates
+var header="HTML Templates"
+var html=`<h1>${header}</h1><ul>`
+let tags=["template1","template2","template3","template4"]
+for(const x of tags){
+    html+=`<li>${x}</li>`;
+}
+html+=`</ul>`;
+console.log(html);     
