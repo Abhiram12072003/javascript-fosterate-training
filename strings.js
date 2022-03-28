@@ -29,7 +29,7 @@ console.log(y);
 
 //There are three methods for extracting part of the string they are: slice(),substring().substr() 
 
-let z="Apple, Banana, Kiwi"
+var z="Apple, Banana, Kiwi"
 
 //Slice 
 console.log(z.slice(0,3));  //App  
