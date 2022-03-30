@@ -6,7 +6,7 @@ console.log(a);
 var b='Hello';
 console.log(b);
 
-let s="I am 'Abhi'";
+var s="I am 'Abhi'";
 console.log(s);
 
 //We can use back slash '\' to avoid inverted commas
@@ -17,7 +17,7 @@ console.log(str);
 var text="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 console.log(text.length);
 
-let t="We are so called \"Heroes\"";
+var t="We are so called \"Heroes\"";
 console.log(t);
 
 //Javascripts strings as objects 
